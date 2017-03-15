@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Passbook</string>
+    <string name="passbook_title">Passes</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:simple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF0F3E55">
+    <com.passbook.library.CardGroupFrameLayout
+        android:id="@+id/multi_card_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        simple:title_bar_height_no_display_min_limit="@dimen/title_bar_height_no_display_min_limit"
+        simple:title_bar_height_no_display_max_limit="@dimen/title_bar_height_no_display_max_limit"
+        simple:title_bar_height_offset_group="@dimen/title_bar_height_offset_group"
+        simple:margin_top_display="@dimen/margin_top_display"
+        simple:margin_top_no_display="@dimen/margin_top_no_display"
+        simple:margin_bottom_display="@dimen/margin_bottom_display"
+        simple:margin_bottom_display_gap="@dimen/margin_bottom_display_gap"
+        simple:margin_bottom_display_width_offset="@integer/margin_bottom_display_width_offset"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="ADD"
+        android:textColor="@android:color/white"
+        android:onClick="onAdd"/>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="passbook_background_padding">16dp</dimen>
+    <dimen name="passbook_title_fontsize">20sp</dimen>
+    <dimen name="passbook_button_size">25dp</dimen>
+
+    <dimen name="title_bar_height_no_display_min_limit">60dp</dimen>
+    <dimen name="title_bar_height_no_display_max_limit">150dp</dimen>
+    <dimen name="title_bar_height_offset_group">20dp</dimen>
+    <dimen name="margin_top_display">30dp</dimen>
+    <dimen name="margin_top_no_display">60dp</dimen>
+    <dimen name="margin_bottom_display">50dp</dimen>
+    <dimen name="margin_bottom_display_gap">40dp</dimen>
+
+    <integer name="margin_bottom_display_width_offset">10</integer>
+</resources>

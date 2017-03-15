@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CardGroupFrameLayout">
+        <attr name="move_distance_to_trigger" format="dimension"/>
+        <attr name="title_bar_height_no_display_min_limit" format="dimension"/>
+        <attr name="title_bar_height_no_display_max_limit" format="dimension"/>
+        <attr name="title_bar_height_offset_group" format="dimension"/>
+        <attr name="margin_top_no_display" format="dimension"/>
+        <attr name="margin_top_display" format="dimension"/>
+        <attr name="margin_bottom_display" format="dimension"/>
+        <attr name="margin_bottom_display_gap" format="dimension"/>
+        <attr name="margin_bottom_display_width_offset" format="float"/>
+        <attr name="animator_duration" format="integer"/>
+    </declare-styleable>
+</resources>
